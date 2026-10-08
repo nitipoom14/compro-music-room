@@ -1,0 +1,39 @@
+Music Room BOOKING System - Summary Report
+Generated At : 2026-09-22 14:31:14 (+07:00)
+App Version : 2.0 (Booking)
+Endianness : Little-Endian
+Encoding : UTF-8 (fixed-length)
+
+=== Rooms (rooms.dat) ===
+RoomID  Name          Type          Cap   Floor  Rate/hr   Status   
+1001    Studio A      Small Band    4     1      300.00    Active   
+1002    Studio B      Small Band    5     1      350.00    Active   
+1003    Studio C      Full Band     8     1      500.00    Active   
+1004    Studio D      Full Band     10    2      600.00    Active   
+1005    VIP Room      Premium       12    2      1000.00   Active   
+1006    Vocal Box     Solo/Vocal    2     2      150.00    Active   
+1007    Piano Room    Solo/Duo      2     3      200.00    Active   
+1008    Drum Room     Practice      2     3      200.00    Active   
+1009    Studio E      Full Band     8     3      500.00    Active   
+1010    www           eee           8     4      12.00     Active   
+* Total Rooms : 10   Active : 10   Deleted : 0
+
+=== Booking Summary (bookings.dat) ===
+* Total Booking Records : 5
+* Active (Booked) : 4
+* Cancelled : 1
+* Bookings Today (2026-09-22) : 3
+* Total Revenue (Active bookings) : 5,000.00 thb
+
+=== Bookings by Room (Active only) ===
+* VIP Room       (Room 1005) : 1 booking(s), 3,000.00 thb
+* Studio C       (Room 1003) : 1 booking(s), 1,000.00 thb
+* Studio B       (Room 1002) : 1 booking(s), 700.00 thb
+* Studio A       (Room 1001) : 1 booking(s), 300.00 thb
+
+=== Recent Bookings (last entries, newest first) ===
+* [2026-09-22 14:28:51] #5 Studio A (1001) - fff on 2333-12-23 15:00-16:00 = 300.00 thb [Booked]
+* [2026-09-22 14:28:14] #1 Studio B (1002) - คุณสมชาย ใจดี on 2026-09-22 14:00-16:00 = 700.00 thb [Booked]
+* [2026-09-22 14:28:14] #2 VIP Room (1005) - วง The Sunset on 2026-09-22 18:00-21:00 = 3000.00 thb [Booked]
+* [2026-09-22 14:28:14] #3 Vocal Box (1006) - คุณมานี ร้องเพลง on 2026-09-22 10:00-11:00 = 150.00 thb [Cancelled]
+* [2026-09-22 14:28:14] #4 Studio C (1003) - วง Indy Kids on 2026-09-22 13:00-15:00 = 1000.00 thb [Booked]
